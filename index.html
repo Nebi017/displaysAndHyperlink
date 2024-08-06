@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link,a:visited{
+            background-color: green;
+            color:white;
+            padding: 20px 36px;
+            text-align: center;
+           text-decoration: none;
+           font-size: large;
+        }
+        a:hover{
+            background-color: white;
+            color: black;
+            border: 3px solid green;
+        }
+        #A{
+            background-color: yellow;
+        }
+        .B{
+            display: inline-block;
+            background-color: yellow;
+            border: 1px solid blue;
+            height: 20px;
+        }
+        .C{
+            display: inline-block;
+            background-color: yellow;
+            border: 1px solid blue;
+            height: 90px;
+            width: 90px;
+
+        }
+        .D{
+            display: block;
+            background-color: yellow;
+            border: 1px solid blue;
+            height: 90px;
+            width: 90px;
+
+        }
+        img{
+            position:absolute;
+        z-index: -1;
+    }
+        
+    </style>
+</head>
+<body>
+    <br><br>
+    
+    <a href="#">This is a link </a>
+    <br><br><br>
+    <div id="A">
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div>
+        <img src="yess.jpg" alt="no image">
+        <h1>This is heading</h1>
+        <p> Because ,this image has a z-index of -1,it wil be placed behind the text.</p>
+    </div>
+    <br>
+    <br>
+    <br><br><br><br><br>
+    <h2> The display Property</h2>
+    <h3>display:inline</h3>
+    <p>display: inline in CSS makes an  element <span class="B">display </span> <span class="B">inline</span>  with the surrounding content, without starting a new line or affecting the layout height</p>
+    <br><br>
+    <h3>display:inline-block</h3>
+    <p>inline-block in CSS allows an element to be styled as an <span class="C">inline</span> <span class="C">element</span>  while retaining the ability to set width and height properties.</p>
+    <br><br>
+    <h3>display:block</h3>
+    <p>display: block; in CSS makes an element <span class="D">block level</span> <span class="D">element</span>  , causing it to take up the full width available and start on a new line.</p>
+    
+</body>
+</html>
